@@ -1,0 +1,23 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /xq
+name1: Xiao \n Qiang
+name2: 'Xiao \n Qiang'
+name3: "Xiao \n Qiang"
+
+app:
+  address: 127.0.0.1
+  port: 8888
+  name: test-service
+  prop: { id: 1 , name: xq}
+  listStr:
+    - xxx
+    - yyy
+  dependOn:
+    - name: test-service1
+      url: 127.0.0.2
+    - name: test-service2
+      url: 127.0.0.3
+
+
