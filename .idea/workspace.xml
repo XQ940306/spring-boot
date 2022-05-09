@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f02f1e6-fe7c-46f0-912c-b5179521ff6e" name="Changes" comment="" />
+    <list default="true" id="0f02f1e6-fe7c-46f0-912c-b5179521ff6e" name="Changes" comment="初次提交">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/springboot/demo1/config/BeanSpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/springboot/demo1/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/springboot/demo1/config/UserConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/springboot/demo1/services/BeanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/java/com/springboot/demo1/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/context/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/src/main/resources/user.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/java/com/springboot/demo1/controllers/accountcontroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/java/com/springboot/demo1/controllers/accountcontroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/target/classes/com/springboot/demo1/controllers/accountcontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/target/classes/com/springboot/demo1/controllers/accountcontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/demo1/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +34,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="28kHOixTCEqVGvWSlu2eusbQz3c" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,9 +64,17 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo1/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\XQ\JAVA\spring-boot-demo\demo1\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -61,11 +93,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651753634493</updated>
-      <workItem from="1651753635649" duration="6484000" />
+      <workItem from="1651753635649" duration="8197000" />
+      <workItem from="1652097668356" duration="7123000" />
     </task>
+    <task id="LOCAL-00001" summary="初次提交">
+      <created>1651840754275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651840754275</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初次提交" />
   </component>
 </project>

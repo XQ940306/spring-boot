@@ -2,10 +2,13 @@ server:
   port: 8888
   servlet:
     context-path: /xq
+spring:
+  profiles:
+    active: test
+---
 name1: Xiao \n Qiang
 name2: 'Xiao \n Qiang'
 name3: "Xiao \n Qiang"
-
 app:
   address: 127.0.0.1
   port: 8888
@@ -19,5 +22,26 @@ app:
       url: 127.0.0.2
     - name: test-service2
       url: 127.0.0.3
+spring:
+  profiles: dev
+---
+name1: Xiao \n Qiang
+name2: 'Xiao \n Qiang'
+name3: "Xiao \n Qiang"
+app:
+  address: 127.0.0.2
+  port: 9999
+  name: test-service2
+  prop: { id: 1 , name: xq}
+  listStr:
+    - xxx
+    - yyy
+  dependOn:
+    - name: test-service1
+      url: 127.0.0.2
+    - name: test-service2
+      url: 127.0.0.3
+spring:
+  profiles: test
 
 
