@@ -4,14 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f02f1e6-fe7c-46f0-912c-b5179521ff6e" name="Changes" comment="装配">
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/config/DruidConfig.java" afterDir="false" />
+    <list default="true" id="0f02f1e6-fe7c-46f0-912c-b5179521ff6e" name="Changes" comment="druid">
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/spring-boot-demo/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/target/classes/com/springboot/demo1/config/BeanSpringConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/target/classes/com/springboot/demo1/config/SpringConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/target/classes/com/springboot/demo1/config/UserConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/target/classes/com/springboot/demo1/services/BeanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/target/classes/com/springboot/demo1/services/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/target/classes/context/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/target/classes/user.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/Demo2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/mappers/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/po/UserPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/test/java/com/springboot/demo2/Demo2ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/target/classes/com/springboot/demo2/Demo2Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/target/classes/com/springboot/demo2/config/DataSourceConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/target/test-classes/com/springboot/demo2/Demo2ApplicationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/config/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/config/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/config/DruidConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +88,87 @@
       <recent name="F:\XQ\JAVA\spring-boot-demo\demo1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Demo2Application">
+  <component name="RunManager" selected="JUnit.Demo2ApplicationTests.deleteUserById">
+    <configuration name="Demo2ApplicationTests.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.demo2.Demo2ApplicationTests" />
+      <option name="METHOD_NAME" value="addUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2ApplicationTests.deleteUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.demo2.Demo2ApplicationTests" />
+      <option name="METHOD_NAME" value="deleteUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2ApplicationTests.getUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.demo2.Demo2ApplicationTests" />
+      <option name="METHOD_NAME" value="getUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2ApplicationTests.getUsersByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.demo2.Demo2ApplicationTests" />
+      <option name="METHOD_NAME" value="getUsersByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2ApplicationTests.updateUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.demo2.Demo2ApplicationTests" />
+      <option name="METHOD_NAME" value="updateUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.demo1.Demo1Application" />
@@ -85,6 +183,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Demo2ApplicationTests.deleteUserById" />
+        <item itemvalue="JUnit.Demo2ApplicationTests.updateUserById" />
+        <item itemvalue="JUnit.Demo2ApplicationTests.addUser" />
+        <item itemvalue="JUnit.Demo2ApplicationTests.getUsersByName" />
+        <item itemvalue="JUnit.Demo2ApplicationTests.getUserById" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -96,7 +203,8 @@
       <updated>1651753634493</updated>
       <workItem from="1651753635649" duration="8197000" />
       <workItem from="1652097668356" duration="7379000" />
-      <workItem from="1652268096241" duration="5200000" />
+      <workItem from="1652268096241" duration="5415000" />
+      <workItem from="1652353646518" duration="5208000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1651840754275</created>
@@ -112,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652104927750</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="druid">
+      <created>1652273586642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652273586642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +254,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初次提交" />
     <MESSAGE value="装配" />
-    <option name="LAST_COMMIT_MESSAGE" value="装配" />
+    <MESSAGE value="druid" />
+    <option name="LAST_COMMIT_MESSAGE" value="druid" />
   </component>
 </project>

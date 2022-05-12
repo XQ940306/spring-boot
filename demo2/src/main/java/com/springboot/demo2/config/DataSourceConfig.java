@@ -19,6 +19,7 @@ public class DataSourceConfig {
     public DataSourceProperties ds1DataSourceProperties() {
         return new DataSourceProperties();
     }
+
     @Primary
     @Bean(name = "ds1DataSource")
     public DataSource ds1DataSource(@Qualifier("ds1DataSourceProperties") DataSourceProperties dataSourceProperties) {
@@ -30,6 +31,7 @@ public class DataSourceConfig {
     public DataSourceProperties ds2DataSourceProperties() {
         return new DataSourceProperties();
     }
+
     //第二个ds2数据源
     @Bean("ds2DataSource")
     public DataSource ds2DataSource(@Qualifier("ds2DataSourceProperties") DataSourceProperties dataSourceProperties) {
