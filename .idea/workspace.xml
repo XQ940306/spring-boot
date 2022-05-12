@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f02f1e6-fe7c-46f0-912c-b5179521ff6e" name="Changes" comment="Mapper （基于注解）">
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/mappers/User2Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/main/resources/mapper/User2Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2/src/test/java/com/springboot/demo2/Demo2ApplicationTest2.java" afterDir="false" />
+    <list default="true" id="0f02f1e6-fe7c-46f0-912c-b5179521ff6e" name="Changes" comment="Mapper （基于XML文件）">
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/mappers/User3Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/po/User2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo2/src/test/java/com/springboot/demo2/Demo2ApplicationTest3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/java/com/springboot/demo2/mappers/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/src/test/java/com/springboot/demo2/Demo2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/src/test/java/com/springboot/demo2/Demo2ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo2/target/test-classes/com/springboot/demo2/Demo2ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="mybatisMapping" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +70,7 @@
       <recent name="F:\XQ\JAVA\spring-boot-demo\demo1\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Demo2ApplicationTest2.getAllUsers">
+  <component name="RunManager" selected="JUnit.Demo2ApplicationTest3.getAllUsers">
     <configuration name="Demo2ApplicationTest2.getAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo2" />
       <extension name="coverage">
@@ -91,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo2ApplicationTests.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo2ApplicationTest3.getAllUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo2" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +96,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.springboot.demo2" />
-      <option name="MAIN_CLASS_NAME" value="com.springboot.demo2.Demo2ApplicationTests" />
-      <option name="METHOD_NAME" value="addUser" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.demo2.Demo2ApplicationTest3" />
+      <option name="METHOD_NAME" value="getAllUsers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Demo2ApplicationTest3.getAllUsers" />
         <item itemvalue="JUnit.Demo2ApplicationTest2.getAllUsers" />
         <item itemvalue="JUnit.Demo2ApplicationTests.getAllUsers" />
         <item itemvalue="JUnit.Demo2ApplicationTests.deleteUserById" />
         <item itemvalue="JUnit.Demo2ApplicationTests.updateUserById" />
-        <item itemvalue="JUnit.Demo2ApplicationTests.addUser" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +186,7 @@
       <workItem from="1651753635649" duration="8197000" />
       <workItem from="1652097668356" duration="7379000" />
       <workItem from="1652268096241" duration="5415000" />
-      <workItem from="1652353646518" duration="8254000" />
+      <workItem from="1652353646518" duration="9589000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1651840754275</created>
@@ -220,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652359031139</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mapper （基于XML文件）">
+      <created>1652362050631</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652362050631</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +252,7 @@
     <MESSAGE value="装配" />
     <MESSAGE value="druid" />
     <MESSAGE value="Mapper （基于注解）" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mapper （基于注解）" />
+    <MESSAGE value="Mapper （基于XML文件）" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mapper （基于XML文件）" />
   </component>
 </project>
